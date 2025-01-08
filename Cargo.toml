@@ -1,0 +1,12 @@
+[package]
+name = "file-explorer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.27"
+anyhow = "1.0"
+
+[[bin]]
+name = 'fexplorer'
+path = 'src/main.rs'
